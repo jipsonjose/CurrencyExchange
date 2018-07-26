@@ -26,6 +26,8 @@ public class CurrencyConversionController {
 	public CurrencyConversionBean convertCurrency(@PathVariable String from, @PathVariable String to,@PathVariable BigDecimal quantity) {
 		
 		//Feign - Problem 1
+		
+		//Git hub commit;;;;
 		Map<String,String> uriVariables = new HashMap<>();
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);
